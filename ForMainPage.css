@@ -68,13 +68,14 @@
     border-bottom: 1px dotted black;
   }
   
-#GunDae #IpDae{
+/* 텍스트 위에 마우스 올리면 visible */
+  
+#GunDae #IpDae {
     width: 400px;
     background-color: gray;
     color: white;
     text-align: center;
-    border-radius: 3px;
-    padding: 6px 3px;
+    padding: 3px;
     position: absolute;
     z-index: 1;
     visibility: hidden;
